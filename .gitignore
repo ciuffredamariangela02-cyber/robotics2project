@@ -1,0 +1,26 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+ 
+# Docker
+docker_ws/.docker/
+ 
+# Maps (generated, not versioned)
+ros_ws/src/ugv_competition/maps/*.pgm
+ros_ws/src/ugv_competition/maps/*.yaml
+ 
+# VS Code
+.vscode/
+ 
+# macOS
+.DS_Store
+ 
+# Logs
+*.log
