@@ -6,6 +6,6 @@ source /opt/ros/jazzy/setup.bash
 export ROS_DOMAIN_ID=0
 export TURTLEBOT3_MODEL=burger
 export GZ_SIM_RESOURCE_PATH=/ros_ws/src
- 
+export DISPLAY=:0
 exec "$@"
  
